@@ -12,6 +12,11 @@
  */
 public class FindingBoundaryWithBinarySearchAlternate
 {
+    /**
+     * This function finds the first true value in an array where true values start on the right side of the array
+     * @param array is the array to be searched
+     * @return the index of the first true value or -1
+     */
     public static int findBoundary(boolean[] array) {
         int left = 0, right = array.length - 1, trueBound = -1;
 
@@ -26,6 +31,10 @@ public class FindingBoundaryWithBinarySearchAlternate
         return trueBound;
     }
 
+    /**
+     * Main function used to test solution
+     * @param args array of sequence characters that are passed to the main function on execution
+     */
     public static void main(String[] args) {
         boolean[] array = {false, false, true, true, true};
         System.out.println(findBoundary(array));

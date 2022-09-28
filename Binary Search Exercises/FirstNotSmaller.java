@@ -13,7 +13,7 @@
 public class FirstNotSmaller
 {
     /**
-     *
+     * This function is used to solve the problem using binary search
      * @param array is the array of numbers to be searched
      * @param target value to either be found or closest larger number to be found
      * @return the index of either the target or the closest number > the targer

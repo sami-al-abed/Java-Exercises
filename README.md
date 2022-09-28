@@ -10,3 +10,6 @@ The following exercises are shown in this repo:<br/>
   - First Element Not Smaller Than Target<br/>
     - Time Complexity O(log(n))<br/>
     - Space Complexity O(1)<br/>
+  - First Occurrence of a Number in a Sorted Array with Duplicates<br/>
+    - Time Complexity O(log(n))<br/>
+    - Space Complexity O(1)<br/>

@@ -13,3 +13,6 @@ The following exercises are shown in this repo:<br/>
   - First Occurrence of a Number in a Sorted Array with Duplicates<br/>
     - Time Complexity O(log(n))<br/>
     - Space Complexity O(1)<br/>
+  - Square Root<br/>
+    - Time Complexity O(log(n))<br/>
+    - Space Complexity O(1)<br/>

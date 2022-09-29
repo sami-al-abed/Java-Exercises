@@ -19,3 +19,6 @@ The following exercises are shown in this repo:<br/>
   - Minimum in rotated sorted array<br/>
     - Time Complexity O(log(n))<br/>
     - Space Complexity O(1)<br/>
+  - The Peak of a Mountain Array<br/>
+    - Time Complexity O(log(n))<br/>
+    - Space Complexity O(1)<br/>

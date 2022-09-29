@@ -16,3 +16,6 @@ The following exercises are shown in this repo:<br/>
   - Square Root<br/>
     - Time Complexity O(log(n))<br/>
     - Space Complexity O(1)<br/>
+  - Minimum in rotated sorted array<br/>
+    - Time Complexity O(log(n))<br/>
+    - Space Complexity O(1)<br/>

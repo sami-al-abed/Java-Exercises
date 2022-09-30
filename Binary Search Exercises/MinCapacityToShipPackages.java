@@ -14,8 +14,9 @@ import java.util.List;
 
 /**
  * This class solves the problem by using binary search
- * Given a list of weights that we have to ship in order, we can create an initial range of feasible weights.
- * We know that the minimum daily weight has to be equal to the weight of the heaviest value, so the initial minimum in the range
+ *
+ * Given a list of weights that we have to ship in order, we can create an initial range of feasible daily weights.
+ * We know that the minimum possible daily weight has to be equal to the weight of the heaviest value, so the initial minimum in the range
  * is equal to the largest value in the provided list.
  * We know that the most the truck can possibly carry is all the weights at once, so the initial maximum is equal to the sum of all weights.
  * We know that the minimum max daily value should be somewhere between these two numbers, therefore we use binary search to find the solution.

@@ -25,3 +25,6 @@ The following exercises are shown in this repo:<br/>
   - Capacity to Ship Packages Within D Days<br/>
     - Time Complexity O(nlog(n))<br/>
     - Space Complexity O(1)<br/>
+  - Newspapers<br/>
+    - Time Complexity O(nlog(n))<br/>
+    - Space Complexity O(1)<br/>

@@ -22,3 +22,6 @@ The following exercises are shown in this repo:<br/>
   - The Peak of a Mountain Array<br/>
     - Time Complexity O(log(n))<br/>
     - Space Complexity O(1)<br/>
+  - Capacity to Ship Packages Within D Days<br/>
+    - Time Complexity O(nlog(n))<br/>
+    - Space Complexity O(1)<br/>

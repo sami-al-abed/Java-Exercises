@@ -1,4 +1,4 @@
-# Java-Exercises
+# Java Exercises
 Exercises I am playing with in Java to sharpen my skillz<br/><br/>
 This will be added onto as I do more exercises and practices!<br/>
 Feel free to use these for anything but cheating :)<br/><br/>
@@ -27,4 +27,18 @@ The following exercises are shown in this repo:<br/>
     - Space Complexity O(1)<br/>
   - Newspapers<br/>
     - Time Complexity O(nlog(n))<br/>
-    - Space Complexity O(1)<br/>
+    - Space Complexity O(1)<br/><br/>
+- DFS Exercises<br/>
+  - Binary Tree Traversal<br/>
+    - In-Order Traversal<br/>
+      - Time Complexity O(n) (number of nodes as n)<br/>
+      - Space Complexity O(n) (height of the tree as n)<br/>
+    - Pre-Order Traversal<br/>
+      - Time Complexity O(n) (number of nodes as n)<br/>
+      - Space Complexity O(n) (height of the tree as n)<br/>
+    - Post-Order Traversal<br/>
+      - Time Complexity O(n) (number of nodes as n)<br/>
+      - Space Complexity O(n) (height of the tree as n)<br/>
+  - DFS on a Binary Tree<br/>
+    - Time Complexity O(n) (number of nodes as n)<br/>
+    - Space Complexity O(n) (height of the tree as n)<br/>

@@ -1,0 +1,56 @@
+/**
+ * This class contains traversal algorithms used to read values of trees
+ */
+public class Traversal
+{
+    /**
+     * This method pints values of a tree using in-order traversal
+     * @param root is the root of the tree
+     */
+    public static void inOrderTraversal(Node<Integer> root) {
+        if (root != null) {
+            inOrderTraversal(root.left); // check left
+            System.out.println(root.value); // do itself
+            inOrderTraversal(root.right); // check right
+        }
+    }
+
+    /**
+     * This method pints values of a tree using pre-order traversal
+     * @param root is the root of the tree
+     */
+    public static void preOrderTraversal(Node<Integer> root) {
+        if (root != null) {
+            System.out.println(root.value); // do itself
+            preOrderTraversal(root.left); // check left
+            preOrderTraversal(root.right); // check right
+        }
+    }
+
+    /**
+     * This method pints values of a tree using post-order traversal
+     * @param root is the root of the tree
+     */
+    public static void postOrderTraversal(Node<Integer> root) {
+        if (root != null) {
+            postOrderTraversal(root.left); // check left
+            postOrderTraversal(root.right); // check right
+            System.out.println(root.value); // do itself
+        }
+    }
+
+    /**
+     * Main function used to test solution
+     * @param args array of sequence characters that are passed to the main function on execution
+     */
+    public static void main(String[] args) {
+        StaticIntegerBinaryTree testTree = new StaticIntegerBinaryTree("5 4 3 x x 8 x x 6 x x"); // create tree using pre-order traversal through string
+
+        preOrderTraversal(testTree.root);
+        System.out.println("\n");
+        postOrderTraversal(testTree.root);
+        System.out.println("\n");
+        inOrderTraversal(testTree.root);
+        System.out.println("\n");
+    }
+}

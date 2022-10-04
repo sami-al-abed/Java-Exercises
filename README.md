@@ -42,3 +42,6 @@ The following exercises are shown in this repo:<br/>
   - DFS on a Binary Tree<br/>
     - Time Complexity O(n) (number of nodes as n)<br/>
     - Space Complexity O(n) (height of the tree as n)<br/>
+  - Max depth of a Binary Tree<br/>
+    - Time Complexity O(n)<br/>
+    - Space Complexity O(n)<br/>

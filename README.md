@@ -48,3 +48,6 @@ The following exercises are shown in this repo:<br/>
   - Number of Visible Tree Nodes<br/>
     - Time Complexity O(n)<br/>
     - Space Complexity O(n)<br/>
+  - Is a Binary Tree Balanced<br/>
+    - Time Complexity O(n)<br/>
+    - Space Complexity O(n)<br/>

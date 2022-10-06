@@ -51,3 +51,6 @@ The following exercises are shown in this repo:<br/>
   - Is a Binary Tree Balanced<br/>
     - Time Complexity O(n)<br/>
     - Space Complexity O(n)<br/>
+  - Is a Binary Search Tree<br/>
+    - Time Complexity O(n)<br/>
+    - Space Complexity O(n)<br/>

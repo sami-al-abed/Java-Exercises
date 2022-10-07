@@ -57,3 +57,6 @@ The following exercises are shown in this repo:<br/>
   - Insert into a Binary Search Tree<br/>
     - Time Complexity O(n) (not balanced)(n is height of tree)<br/>
     - Space Complexity O(n) (not balanced)(n is height of tree)<br/>
+  - Invert a Binary Tree<br/>
+    - Time Complexity O(n)<br/>
+    - Space Complexity O(n)<br/>

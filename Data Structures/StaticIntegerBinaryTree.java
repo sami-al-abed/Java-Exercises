@@ -4,7 +4,7 @@
  */
 public class StaticIntegerBinaryTree
 {
-    public final Node<Integer> root; // root of the binary tree
+    public Node<Integer> root; // root of the binary tree
     private int index; // index used to parse through the array of strings created by the string passed to the constructor
 
     /**

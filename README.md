@@ -60,3 +60,6 @@ The following exercises are shown in this repo:<br/>
   - Invert a Binary Tree<br/>
     - Time Complexity O(n)<br/>
     - Space Complexity O(n)<br/>
+  - Lowest Common Ancestor in BST<br/>
+    - Time Complexity O(n) (n is height of tree)<br/>
+    - Space Complexity O(n) (n is height of tree)<br/>

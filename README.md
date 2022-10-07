@@ -63,3 +63,6 @@ The following exercises are shown in this repo:<br/>
   - Lowest Common Ancestor in BST<br/>
     - Time Complexity O(n) (n is height of tree)<br/>
     - Space Complexity O(n) (n is height of tree)<br/>
+  - Lowest Common Ancestor in Binary tree<br/>
+    - Time Complexity O(n) (n is number of nodes)<br/>
+    - Space Complexity O(n) (n is number of nodes)<br/>

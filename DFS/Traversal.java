@@ -39,12 +39,22 @@ public class Traversal
         }
     }
 
+    public static void nonBinaryTreeTraversal(NoBinaryNode<Integer> root) {
+        if (root != null) {
+            System.out.println(root.value);
+            for ( int i = 0; i < root.children.size(); i++) {
+                nonBinaryTreeTraversal(root.children.get(i));
+            }
+        }
+    }
+
     /**
      * Main function used to test solution
      * @param args array of sequence characters that are passed to the main function on execution
      */
     public static void main(String[] args) {
         StaticIntegerBinaryTree testTree = new StaticIntegerBinaryTree("5 4 3 x x 8 x x 6 x x"); // create tree using pre-order traversal through string
+        StaticIntegerNonBinaryTree testTree1 = new StaticIntegerNonBinaryTree("1 3 2 1 5 0 3 0 4 0");
 
         preOrderTraversal(testTree.root);
         System.out.println("\n");
@@ -52,5 +62,6 @@ public class Traversal
         System.out.println("\n");
         inOrderTraversal(testTree.root);
         System.out.println("\n");
+        nonBinaryTreeTraversal(testTree1.root);
     }
 }

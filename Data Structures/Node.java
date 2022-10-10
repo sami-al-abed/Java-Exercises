@@ -1,5 +1,6 @@
 /**
  * Class used to create a binary tree Node
+ * @param <T> the type of value contained within the node
  */
 public class Node<T>
 {

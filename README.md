@@ -30,14 +30,14 @@ The following exercises are shown in this repo:<br/>
     - Space Complexity O(1)<br/><br/>
     
 - DFS Exercises<br/>
-  - Binary Tree Traversal<br/>
-    - In-Order Traversal<br/>
+  - Binary Tree NonBinaryTraversal<br/>
+    - In-Order NonBinaryTraversal<br/>
       - Time Complexity O(n) (number of nodes as n)<br/>
       - Space Complexity O(n) (height of the tree as n)<br/>
-    - Pre-Order Traversal<br/>
+    - Pre-Order NonBinaryTraversal<br/>
       - Time Complexity O(n) (number of nodes as n)<br/>
       - Space Complexity O(n) (height of the tree as n)<br/>
-    - Post-Order Traversal<br/>
+    - Post-Order NonBinaryTraversal<br/>
       - Time Complexity O(n) (number of nodes as n)<br/>
       - Space Complexity O(n) (height of the tree as n)<br/>
   - DFS on a Binary Tree<br/>

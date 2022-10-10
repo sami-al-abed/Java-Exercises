@@ -28,6 +28,7 @@ The following exercises are shown in this repo:<br/>
   - Newspapers<br/>
     - Time Complexity O(nlog(n))<br/>
     - Space Complexity O(1)<br/><br/>
+    
 - DFS Exercises<br/>
   - Binary Tree Traversal<br/>
     - In-Order Traversal<br/>
@@ -65,4 +66,8 @@ The following exercises are shown in this repo:<br/>
     - Space Complexity O(n) (n is height of tree)<br/>
   - Lowest Common Ancestor in Binary tree<br/>
     - Time Complexity O(n) (n is number of nodes)<br/>
-    - Space Complexity O(n) (n is number of nodes)<br/>
+    - Space Complexity O(n) (n is number of nodes)<br/><br/>
+    
+- Backtracking Exercises<br/>
+  - Time Complexity O(n) (n is number of nodes)<br/>
+  - Space Complexity O(n) (n is height of tree)<br/>

@@ -22,12 +22,11 @@ public class FindAllABCombos
      * @param combos is the list of all possible combinations that is added to
      */
     public static void dfs(int n, List<String> currentCombo, List<String> combos) {
-        String[] letters = {"a", "b"};
         if (currentCombo.size() == n) {
             combos.add(String.join("", currentCombo));
             return;
         }
-        for (String letter : letters) {
+        for (String letter : new String[] {"a", "b"}) {
             currentCombo.add(letter);
             dfs(n, currentCombo, combos);
             currentCombo.remove(currentCombo.size() - 1);

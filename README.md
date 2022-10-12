@@ -69,5 +69,9 @@ The following exercises are shown in this repo:<br/>
     - Space Complexity O(n) (n is number of nodes)<br/><br/>
     
 - Backtracking Exercises<br/>
-  - Time Complexity O(n) (n is number of nodes)<br/>
-  - Space Complexity O(n) (n is height of tree)<br/>
+  - Ternary Tree Paths<br/>
+    - Time Complexity O(n) (n is number of nodes)<br/>
+    - Space Complexity O(n) (n is height of tree)<br/>
+  - Find All A and B combinations<br/>
+    - Time Complexity O(n) (n is number of nodes)<br/>
+    - Space Complexity O(n) (n is length of combinations)<br/><br/>

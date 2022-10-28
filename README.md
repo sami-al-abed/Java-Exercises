@@ -80,4 +80,7 @@ The following exercises are shown in this repo:<br/>
     - Space Complexity O(n) (n is length of combinations)<br/>
   - Partitioning a String Into Palindromes<br/>
     - Time Complexity O(2^n * n) (n is length of string)<br/>
-    - Space Complexity O(n) (n is length of string)<br/><br/>
+    - Space Complexity O(n) (n is length of string)<br/>
+  - Generate All Valid Parentheses<br/>
+    - Time Complexity O(2^n)<br/>
+    - Space Complexity O(n)<br/><br/>

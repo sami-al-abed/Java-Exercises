@@ -83,4 +83,7 @@ The following exercises are shown in this repo:<br/>
     - Space Complexity O(n) (n is length of string)<br/>
   - Generate All Valid Parentheses<br/>
     - Time Complexity O(2^n)<br/>
+    - Space Complexity O(n)<br/>
+  - Generate All Permutations<br/>
+    - Time Complexity O(n!)<br/>
     - Space Complexity O(n)<br/><br/>

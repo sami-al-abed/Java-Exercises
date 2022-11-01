@@ -86,4 +86,7 @@ The following exercises are shown in this repo:<br/>
     - Space Complexity O(n)<br/>
   - Generate All Permutations<br/>
     - Time Complexity O(n!)<br/>
-    - Space Complexity O(n)<br/><br/>
+    - Space Complexity O(n)<br/>
+  - Word Break<br/>
+    - Time Complexity O(n^2*m)<br/>
+    - Space Complexity O(n)<br/>
